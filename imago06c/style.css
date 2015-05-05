@@ -1,0 +1,300 @@
+
+/*----------------------  CSS FOR XOOPS 2.0.3 -------------------------*/
+
+/*-- 页面属性 --*/
+body {
+	color: #627DA5;
+	background: #F0F3F5;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+hr {color:#A9B9CE; height:1px;}
+/*-- 超链接 --*/
+a {color:  #666666; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:hover {color: #AF4A92;}
+
+/*-- 标题大小 --*/
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+/*-- 项目列表 --*/
+ul {
+	margin: 2px;
+	padding: 2px;
+	list-style: square inside;
+	text-align: left;
+	color: #A9B9CE;
+}
+li { list-style: square url(images/list.gif) inside; color: #8D94AE;
+}
+
+/*-- 按钮 --*/
+input {
+	padding: 2px 2px 1px 2px; color: #627DA5 ;
+	background-color:#FFFFFF ;
+	border-color: #627DA5;
+	border-style: solid;
+	border-width: 1px;
+	}
+
+textarea {
+	padding: 2px 2px 1px 2px; color: #627DA5 ;
+	background-color:#FFFFFF ;
+	border-color: #627DA5;
+	border-style: solid;
+	border-width: 1px;
+}
+select{
+	padding: 2px 2px 1px 2px; color: #627DA5 ;
+	background-color:#FFFFFF ;
+	border-color: #627DA5;
+	border-style: solid;
+	border-width: 1px;	
+}
+
+
+
+/*-- 表格 --*/
+table {width: 100%;}
+th {background-color: #627DA5; color: #F0F3F5; padding : 4px; vertical-align : middle; font-family: "Verdana", "Arial", "Helvetica", "sans-serif";}
+th a{
+	 color: #D6DDE7;
+}
+th a:hover{
+	color: #FFFFFF;
+}
+table td {padding: 0; border-width: 0; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+/*------------------- 区块 ----------------------*/
+/*-- 页首 --*/
+td#headerbanner {}
+td#headerbar {}
+
+/*-- 左区块 --*/
+td#leftcolumn {width: 202px; font-size:12px; background-color: #D6DDE7;
+}
+td#leftcolumn th {background-color:#CFD7E2;  vertical-align: middle;}
+td#leftcolumn div.blockTitle {
+	width: 191px;
+	padding:10px 5px 17px ;
+	color:  #627DA5;
+	font-weight: bold;
+	font-size: 12px; 
+	background-image: url(images/left_title.gif);
+	background-repeat: no-repeat;
+	text-align: right;
+}
+td#leftcolumn div.blockContent {
+	padding: 3px 3px 3px 4px;
+	line-height: 18px;
+}
+
+/*-- 中中区块 --*/
+td#centercolumn {
+	font-size: 12px;
+	line-height: 20px;
+	padding: 10px; 
+}
+
+td#centercolumn th {background-color:#CFD7E2;  vertical-align: middle;}
+td#centerCcolumn {padding: 0px 3px 1px 3px;}
+td#centerCcolumn div.blockTitle {	padding: 4px 3px 3px 3px;	background-color: #D6DDE7;
+	color:  #627DA5;
+	font-weight: bold;
+	font-size: 12px;
+}
+td#centerCcolumn div.blockContent {	padding: 3px 0px 3px 0px; 
+	line-height: 120%;}
+
+/*-- 中左区块 --*/
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 5px;}
+td#centerLcolumn div.blockTitle {	padding: 4px 3px 3px 3px;	background-color: #D6DDE7;
+	color:#627DA5;
+	font-weight: bold;
+	font-size: 12px;
+}
+td#centerLcolumn div.blockContent {	padding: 3px 0px 3px 0px;
+	line-height: 120%;}
+
+/*-- 中右区块 --*/
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 3px;}
+td#centerRcolumn div.blockTitle {	padding: 4px 3px 3px 3px;
+	background-color: #D6DDE7;
+	color: #627DA5;
+	font-weight: bold;
+	font-size: 12px;}
+td#centerRcolumn div.blockContent {	padding: 3px 0px 3px 0px;
+	line-height: 120%;}
+
+/*-- 模组内容显示 --*/
+div#content {text-align: left;  padding: 8px 3px 8px 3px;  }
+
+/*-- 右区块 --*/
+td#rightcolumn {width:170px; font-size:12px;}
+td#rightcolumn th {background-color:#CFD7E2;  vertical-align: middle;}
+td#rightcolumn div.blockTitle {	padding: 10px 17px 10px ;
+	color:#627DA5;
+	font-weight: bold;
+	font-size: 12px;
+	background: url(images/right_title.gif) no-repeat;
+}
+td#rightcolumn div.blockContent {	padding: 3px 3px 3px 0px;
+	line-height: 120%;
+}
+/*-- 页脚 --*/
+tr#footerline {
+	background: #A9B9CE; height: 5px;
+}
+tr#footerbar { background: #627DA5; color: #F0F3F5; height: 30px; vertical-align: middle;}
+
+/*-- 导航菜单 --*/
+td#mainmenu a { padding: 2px 2px 2px  ; 	color: #627DA5;}
+td#mainmenu a:hover { color : #AF4A92;}
+td#mainmenu a.menuTop { padding: 2px 2px 0px 10px; }
+td#mainmenu a.menuMain {padding: 2px 2px 0px 10px;}
+td#mainmenu a.menuSub {
+	padding-left: 24px;
+	background: url(images/arrows2.gif) no-repeat;
+}
+
+/*-- 用户菜单 --*/
+td#usermenu a {margin: 0; padding: 5px 2px 4px 32px; 	color: #627DA5;
+background: url(images/menu.gif) no-repeat;	font-weight: normal;
+}
+td#usermenu a:hover {color : #AF4A92;}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {}
+
+/*-- 表格交换颜色显示 --*/
+.outer { background-color: #ffffff;  border: 1px solid #A9B9CE;  }
+.head {background-color:#CFD7E2;  padding:5px;   color: #627DA5  }
+.even {background-color: #E7EBF0; padding: 5px;}
+.odd {background-color: #F0F3F5; padding: 5px;}
+.foot {background-color: #CFD7E2; padding-top: 5px;  padding-right: 5px;  padding-left: 5px;  padding-bottom: 5px;   color: #627DA5 ; text-align: center; }
+tr.even td {background-color: #E7EBF0; padding: 5px;}
+tr.odd td {background-color: #F0F3F5; padding: 5px;}
+
+/*-- 警告信息 --*/
+div.errorMsg { background-color: #AF4A92; text-align: center; border-top: 1px solid #627DA5; border-left: 1px solid #627DA5; border-right: 1px solid #627DA5; border-bottom: 1px solid #627DA5; font-weight: bold; padding: 10px;  color: White; }
+div.confirmMsg { background-color: #F0F3F5; color: #627DA5; text-align: center; border-top: 1px solid #A9B9CE; border-left: 1px solid #A9B9CE; border-right: 1px solid #A9B9CE; border-bottom: 1px solid #A9B9CE; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #A9B9CE; color: #D6DDE7; text-align: center; border-top: 1px solid #627DA5; border-left: 1px solid #627DA5; font-weight: bold; border-right: 1px solid #627DA5; border-bottom: 1px solid #627DA5; padding: 10px;}
+
+/*-- 代码与引用 --*/
+div.xoopsCode {
+	background: #FFFFFF;
+	border: 1px dotted #627DA5;
+	font-family: "Courier New", "Courier", "monospace";
+	padding: 6px 6px 6px 6px;
+	color: #AF4A92;
+}
+div.xoopsQuote {
+	background: #FFFFFF;
+	border: 1px dotted #627DA5;
+	font-family: "Courier New", "Courier", "monospace";
+	padding: 6px 6px 6px 6px;
+	color: #AF4A92;
+}
+
+/*-- 模组 --*/
+.item {}
+.itemHead {
+	background-color: #627DA5; color: #F0F3F5; 
+	font-weight: bold;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+}
+.itemInfo {
+	color: #8D94AE; text-align: right;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.itemTitle a {
+	color: #D6DDE7;
+	font-weight: bold;
+}
+
+.itemTitle a:hover{
+	color: #FFFFFF;
+}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.6em;}
+.itemText:first-letter {}
+.itemFoot {
+	text-align: right;
+	padding: 5px 5px 5px 5px;
+	color: #8D94AE;
+	
+}
+.itemFoot a{color:#627DA5}
+.itemAdminLink {}
+.itemPermaLink {}
+
+/*-- 评论 --*/
+.comTitle {font-weight: bold; margin-bottom: 3px; color: #627DA5; }
+.comText {padding: 3px;}
+.comUserStat {font-size: 12px; color:#627DA5; font-weight:bold; border: 1px solid #A9B9CE;  background-color: #FFFFFF; margin: 3px; padding: 3px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 3px; margin-top: 10px; color: #627DA5; font-weight:bold; font-size: 12px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 12px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: 12px;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+/*---------------------- CSS FOR XOOPS 2.0.3 -------------------------*/
+
+
+/*------------------------ IMAGO:THEMES CSS  -------------------------*/
+/*---------home theme-------------*/
+.head_table{
+	background-color: #627DA5;
+}
+.head_logo{
+	width: 222px;
+}
+.head_bar {
+	background-color: #A9B9CE; height: 5px;
+}
+.left_pict {
+	width: 65px; background-color: #ffffff; vertical-align: top;
+}
+.left_logo {
+	height: 178px; width: 65px; background-color: #ffffff; vertical-align: bottom;
+}
+.right_menu {
+
+	height: 49px;
+	width: 229px;
+	background: url(images/r_back.gif) repeat-x;
+	padding-top: 10px;
+}
+.r_c {
+	height: 49px;
+	width: 105px; background: url(images/r_c.gif) no-repeat;
+}
+.r_l {
+	height: 49px;
+	background: url(images/r_l_back.gif) repeat-x;
+	font-size:12px;
+	padding: 8px;
+	font-weight: bold;
+	color: #A9B9CE;
+}
+.r_l a {
+	color: #A9B9CE;
+	font-weight: bold;
+}
+.r_l a:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+}
